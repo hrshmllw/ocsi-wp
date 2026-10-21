@@ -1,0 +1,24 @@
+# WordPress core and local runtime files stay on disk.
+# This repository tracks the custom theme, the custom plugin, and project docs.
+
+/*
+!.gitignore
+!README.md
+!ocsi-website-project-brief.md
+!ocsi-visual-direction.md
+
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/ocsi/
+!/wp-content/plugins/
+/wp-content/plugins/*
+!/wp-content/plugins/ocsi-core/
+
+wp-config.php
+.local-credentials
+.htaccess
+*.log
+.DS_Store
+Thumbs.db

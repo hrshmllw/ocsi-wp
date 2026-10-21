@@ -1,0 +1,67 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "720px",
+			"wideSize": "1120px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{ "slug": "forest", "color": "#183D32", "name": "Forest Green" },
+				{ "slug": "ivory", "color": "#F7F5EF", "name": "Warm Ivory" },
+				{ "slug": "charcoal", "color": "#252927", "name": "Charcoal" },
+				{ "slug": "sage", "color": "#DCE7DC", "name": "Sage" },
+				{ "slug": "gold", "color": "#D6A84B", "name": "Muted Gold" },
+				{ "slug": "white", "color": "#FFFFFF", "name": "White" },
+				{ "slug": "line", "color": "#DADFD9", "name": "Soft Gray" }
+			]
+		},
+		"typography": {
+			"fluid": false,
+			"fontFamilies": [
+				{
+					"slug": "sans",
+					"name": "Inter",
+					"fontFamily": "\"Inter\", \"Segoe UI\", sans-serif"
+				},
+				{
+					"slug": "display",
+					"name": "Manrope",
+					"fontFamily": "\"Manrope\", \"Segoe UI\", sans-serif"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#F7F5EF",
+			"text": "#252927"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--sans)",
+			"fontSize": "1.125rem",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--display)",
+					"fontWeight": "700"
+				}
+			},
+			"link": {
+				"color": { "text": "#183D32" }
+			},
+			"button": {
+				"color": {
+					"background": "#183D32",
+					"text": "#FFFFFF"
+				},
+				"border": { "radius": "2px" }
+			}
+		}
+	}
+}
