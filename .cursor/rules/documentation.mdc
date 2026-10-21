@@ -1,0 +1,26 @@
+---
+description: Record every change in the documentation index and in Spec Kit when behavior changes
+alwaysApply: true
+---
+
+# Documentation
+
+`docs/README.md` is the catalog. Every other document is listed there.
+
+Before finishing work:
+
+- Update the document that already owns the topic, or add a new one.
+- Add, rename, or retarget the row in `docs/README.md` in the same change.
+- Keep this catalog, `README.md` “What is tracked”, and the `.gitignore` allowlist in agreement when a new tracked path is introduced.
+
+Use Spec Kit for a new feature or a change in behavior. Run specify, then plan, then tasks. Write the files under `specs/<number>-<name>/` (`spec.md`, `plan.md`, `tasks.md`). Link to the project brief or the visual direction instead of copying them.
+
+For a correction inside setup, the brief, the visual direction, the constitution, or an existing feature spec, edit that file. Do not open a new spec.
+
+Work done before this rule is already recorded:
+
+- `specs/001-wordpress-scaffold`
+- `specs/002-logo-palette`
+- `specs/003-public-profile-copy`
+
+Example: a new careers filter is a new folder under `specs/` plus a row in `docs/README.md`. A typo in the local setup steps is an edit to `README.md` only.

@@ -7,6 +7,11 @@
 !ocsi-website-project-brief.md
 !ocsi-visual-direction.md
 
+!/docs/
+!/.specify/
+!/specs/
+!/.cursor/
+
 !/wp-content/
 /wp-content/*
 !/wp-content/themes/

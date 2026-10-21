@@ -2,6 +2,8 @@
 
 Local WordPress site for Optimized Customer Solutions, Inc. The repository tracks the custom theme, the custom plugin, and the planning documents. WordPress core stays on disk and is not committed.
 
+The catalog of every document is [docs/README.md](docs/README.md).
+
 ## Local site
 
 With XAMPP Apache and MySQL running, open [http://localhost/ocsi/](http://localhost/ocsi/).
@@ -19,6 +21,8 @@ The OCSI theme and the OCSI Core plugin should both be active. OCSI Core adds tw
 - `wp-content/plugins/ocsi-core`
 - `ocsi-website-project-brief.md`
 - `ocsi-visual-direction.md`
+- `docs/README.md` and the feature specs under `specs/`
+- `.specify/` and `.cursor/` for Spec Kit and the documentation rule
 
 `wp-config.php`, uploads, and `.htaccess` are local only.
 
@@ -39,9 +43,9 @@ MSYS_NO_PATHCONV=1 php wp-cli.phar option update permalink_structure '/%postname
 
 ## Visual direction
 
-The theme follows Direction A in `ocsi-visual-direction.md`: forest green `#183D32`, warm ivory `#F7F5EF`, charcoal text, sage panels, and a small muted-gold mark. Headings use Manrope. Body text uses Inter.
+The recommended palette in `ocsi-visual-direction.md` is corporate red `#C62828`, corporate blue `#174A8B`, cool off-white `#F7F8FA`, white, charcoal `#252B33`, and slate `#64748B`. The logo file remains pure red and blue and sits on a white header. Headings use Manrope. Body text uses Inter.
 
-The homepage line “Moving Brands Forward.” is proposed copy from that document. It is not approved company messaging. The palette is a starting point until OCSI confirms a logo and brand colors.
+The homepage line “Moving Brands Forward.” is proposed copy from that document. It is not approved company messaging. The palette still needs stakeholder approval.
 
 ## InfinityFree
 

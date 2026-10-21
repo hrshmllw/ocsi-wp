@@ -113,10 +113,10 @@ These references are intended for studying specific design patterns, not copying
 
 **Recommended as the primary direction.**
 
-A refined, confident corporate style using deep green, warm white, charcoal, spacious layouts, large headings, and strong photography.
+A refined, confident corporate style using corporate red, corporate blue, and cool neutrals, with spacious layouts, large headings, and strong photography.
 
 **Visual characteristics**
-- Deep forest green and warm neutral backgrounds.
+- Corporate red for actions and small highlights, corporate blue for links and selected headings, and a cool off-white page.
 - Oversized but readable headlines.
 - Generous whitespace.
 - Asymmetrical hero layouts.
@@ -140,7 +140,7 @@ A refined, confident corporate style using deep green, warm white, charcoal, spa
 A brighter, more active direction emphasizing people, retail presence, and the pace of distribution.
 
 **Visual characteristics**
-- Bright white base with a bold accent color.
+- White and cool off-white, with corporate red used more often for calls to action.
 - Bold geometric sans-serif typography.
 - Tighter grids and image cards.
 - Prominent calls to action.
@@ -159,10 +159,10 @@ A brighter, more active direction emphasizing people, retail presence, and the p
 
 ### Direction C: Enterprise Logistics
 
-A structured, operationally focused style using navy, slate, white, clean grids, and technical clarity.
+A structured, operationally focused style using corporate blue, slate, white, clean grids, and technical clarity.
 
 **Visual characteristics**
-- Navy and slate palette.
+- Corporate blue and slate, with corporate red limited to small marks.
 - Strong grid alignment.
 - Structured capability sections.
 - Network maps and verified statistics.
@@ -189,34 +189,44 @@ The result should feel premium and professional, but still human and relevant to
 
 ## 4. Proposed Color Palette
 
-The following palette is a starting point for design exploration, not OCSI's official palette.
+Recommended palette: corporate red, blue, and neutrals. All three visual directions use this set. They differ in how much red or blue is emphasized, not in the hex values.
+
+The supplied logo file uses pure red `#FF0000` and pure blue `#0000FF`. Keep the artwork as supplied. Use `#C62828` for interface red, and match it to the official logo red if that red is different from the file.
 
 | Token | Color | Hex | Suggested use |
 |---|---|---|---|
-| Primary | Forest Green | `#183D32` | Header, hero backgrounds, primary actions |
-| Background | Warm Ivory | `#F7F5EF` | Main page background and editorial sections |
-| Text | Charcoal | `#252927` | Body text and headings |
-| Secondary | Sage | `#DCE7DC` | Soft panels, feature backgrounds, supporting UI |
-| Accent | Muted Gold | `#D6A84B` | Small highlights, milestone details, selected accents |
-| Surface | White | `#FFFFFF` | Cards, forms, and contrast areas |
-| Border | Soft Gray | `#DADFD9` | Dividers, card borders, form boundaries |
+| Accent | Corporate red | `#C62828` | Primary calls to action, highlights, and small visual details |
+| Link | Corporate blue | `#174A8B` | Links, secondary buttons, and selected headings |
+| Background | Cool off-white | `#F7F8FA` | Main page background |
+| Surface | White | `#FFFFFF` | Cards, navigation, content sections, and clean product photography |
+| Text | Charcoal | `#252B33` | Headings, body text, footer, and high-contrast elements |
+| Muted | Slate | `#64748B` | Secondary text, subtle icons, metadata, and understated UI elements |
+
+White text on corporate red is about 5.6:1, so red buttons can use white labels. White text on corporate blue is about 8.8:1. Charcoal on cool off-white is the default reading color. Slate is for secondary text, not for long paragraphs.
+
+### How each direction uses the palette
+
+- **Direction A:** Cool off-white page, white navigation, corporate red for the main action, corporate blue for links and a few headings.
+- **Direction B:** The same tokens, with corporate red used on more calls to action.
+- **Direction C:** The same tokens, with corporate blue used on more structural elements and corporate red kept to small marks.
 
 ### Color usage guidelines
 
-- Use forest green as the primary brand-like color only after confirming it works with OCSI's logo and existing identity.
-- Use warm ivory and white to create space and avoid large areas of dark color on every page.
-- Use charcoal for readable text.
-- Use sage sparingly for secondary panels and visual variation.
-- Reserve muted gold for small accents. Do not use it for long text or small text on white backgrounds without checking contrast.
-- Do not introduce too many accent colors.
+- Place the logo on white so both colors in the mark stay visible.
+- Use corporate red for primary actions and small highlights. Do not set long text in red.
+- Use corporate blue for links, secondary buttons, and selected headings.
+- Use cool off-white for the page and white for cards, navigation, and photography.
+- Use charcoal for headings, body text, and the footer.
+- Use slate for metadata and other secondary text.
+- Do not add green, gold, or a third accent hue.
 
 ### Brand validation
 
 Before finalizing the palette:
-1. Obtain OCSI's official logo in vector or high-resolution format.
+1. Confirm the logo file is the official mark.
 2. Request any existing brand guidelines.
-3. Confirm whether existing corporate colors must be retained.
-4. Test text and interface contrast.
+3. If the official logo red differs from `#FF0000`, match the corporate red to that value.
+4. Test text and interface contrast, including white on `#C62828` and white on `#174A8B`.
 5. Get stakeholder approval for the final palette.
 
 ---
@@ -356,8 +366,8 @@ Do not invent statistics or imply endorsement by another company.
 
 ### Buttons
 
-- Primary: forest green background with accessible light text, if palette is approved.
-- Secondary: transparent or light surface with a clear border.
+- Primary: corporate red (`#C62828`) with white text.
+- Secondary: corporate blue (`#174A8B`) text or border on white.
 - Use concise action labels.
 - Provide hover, focus, disabled, and active states.
 - Maintain sufficiently large touch targets on mobile.
@@ -553,7 +563,6 @@ Use **Modern, Premium Corporate** as the primary design direction, supported by 
 
 Start by studying Ecossential Foods for local industry relevance, Canberra Limited for distributor-focused storytelling, and Nestlé Philippines for human-centered corporate communication. Use DHL Supply Chain and Kuehne+Nagel as references for operational clarity and enterprise-level information architecture.
 
-The end result should look established, clear, and human, while staying lightweight and practical to maintain in WordPress.
+The end result should look established, clear, and human, while staying lightweight and practical to maintain in WordPress. Use corporate red `#C62828`, corporate blue `#174A8B`, cool off-white, white, charcoal, and slate, and keep the logo on a white surface.
 
 *This document is a design planning baseline. The official OCSI brand identity, imagery, claims, partner relationships, and operational details must be verified and approved before launch.*
-"""
