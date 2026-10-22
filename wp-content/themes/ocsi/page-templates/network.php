@@ -13,18 +13,18 @@ while ( have_posts() ) :
 	the_post();
 	?>
 	<main id="main" class="wrap page-main">
-		<p class="placeholder-flag">Placeholder copy</p>
+		<p class="placeholder-flag">Draft from public profiles. Confirm before publication.</p>
 		<h1><?php the_title(); ?></h1>
 		<?php
 		get_template_part(
 			'template-parts/outline',
 			null,
 			array(
-				'intro'    => 'The directory below is managed in WordPress. A coverage map is optional and is not part of this scaffold.',
+				'intro'    => 'Each location below is a branch entry in WordPress, filled from PhilJobNet, Jobstreet, and an FDA establishment record. Phone numbers and opening hours were not in those sources.',
 				'sections' => array(
 					array(
 						'title' => 'Coverage overview',
-						'text'  => 'A regional overview will be written from the verified branch list.',
+						'text'  => 'Luzon coverage named in the profiles runs through Pampanga, Cavite, Laguna, Quezon, Marinduque, Las Piñas, Muntinlupa, and Parañaque. Western Visayas coverage is Iloilo, Antique, and Guimaras. Marinduque is listed as coverage, not as a separate office. A map is not drawn until OCSI confirms the territory.',
 					),
 				),
 			)

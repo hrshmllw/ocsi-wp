@@ -15,9 +15,9 @@ while ( have_posts() ) :
 	the_post();
 	?>
 	<main id="main" class="wrap page-main">
-		<p class="placeholder-flag">Placeholder copy</p>
+		<p class="placeholder-flag">Draft from public profiles. Confirm before publication.</p>
 		<h1><?php the_title(); ?></h1>
-		<p class="prose">Official headquarters address, phone, and email are not entered yet. They will be added when OCSI provides them.</p>
+		<p class="prose">The address repeated on PhilJobNet and the FDA record is MacArthur Highway, Barangay Saguin, City of San Fernando, Pampanga. No public phone number or email address was found in those listings, so none is printed here. Other sites are in the branch directory.</p>
 		<h2>Inquiry form</h2>
 		<p class="prose">The form is not active. It will be connected after an external mail account is configured and a test message reaches the right inbox.</p>
 		<p>Planned fields:</p>

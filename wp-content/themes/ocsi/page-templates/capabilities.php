@@ -11,44 +11,39 @@ while ( have_posts() ) :
 	the_post();
 	?>
 	<main id="main" class="wrap page-main">
-		<p class="placeholder-flag">Placeholder copy</p>
+		<p class="placeholder-flag">Draft from public profiles. Confirm before publication.</p>
 		<h1><?php the_title(); ?></h1>
 		<?php
 		get_template_part(
 			'template-parts/outline',
 			null,
 			array(
-				'intro'    => 'This page can launch as one page with anchored sections. Service claims stay unpublished until OCSI confirms them.',
+				'intro'    => 'The work described in OCSI’s profiles is distribution, field sales, and warehousing for Nestlé grocery and Nestlé Professional lines.',
 				'sections' => array(
 					array(
 						'title' => 'Capabilities overview',
 						'id'    => 'overview',
-						'text'  => 'A confirmed overview of OCSI services will appear here.',
+						'text'  => 'OCSI supplies retailers, wholesalers, public markets, sari-sari stores, restaurants, offices, and other food-service customers. Outlet counts and fleet size are not published here.',
 					),
 					array(
 						'title' => 'Distribution operations',
 						'id'    => 'distribution',
-						'text'  => 'Distribution operations will be described after the service list is approved.',
+						'text'  => 'Grocery lines move through retail, wholesale, public markets, and sari-sari stores in the territories OCSI lists. Food-service customers are covered under Nestlé Professional.',
 					),
 					array(
 						'title' => 'Sales and market execution',
 						'id'    => 'sales',
-						'text'  => 'Sales and market execution will be described after the service list is approved.',
+						'text'  => 'Job listings describe territory sales work: sales supervisors for Nestlé distribution, salespeople covering assigned areas, and a Nestlé Professional supervisor role advertised for Cavite.',
 					),
 					array(
 						'title' => 'Logistics and warehousing',
 						'id'    => 'logistics',
-						'text'  => 'Warehousing and inventory handling will be described after the service list is approved.',
+						'text'  => 'PhilJobNet describes a warehouse OCSI built in the City of San Fernando, Pampanga. Later listings add warehouses in Imus, San Pablo City, Las Piñas, Gumaca, and Oton, Iloilo. An earlier Iloilo profile used Mandurriao; later listings use Barangay Pakiad, Oton.',
 					),
 					array(
 						'title' => 'Territory coverage',
 						'id'    => 'coverage',
-						'text'  => 'Delivery coverage will be described from the verified branch list.',
-					),
-					array(
-						'title' => 'Service standards',
-						'id'    => 'standards',
-						'text'  => 'Quality and process notes will be added only where they are documented.',
+						'text'  => 'Profiles name Laguna, Pampanga, Cavite, Quezon, Marinduque, Las Piñas, Muntinlupa, and Parañaque. The Iloilo operation, from August 2019, covers Iloilo, Antique, and Guimaras. Street addresses are on the network page only where a listing published one.',
 					),
 				),
 			)

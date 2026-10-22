@@ -94,6 +94,6 @@ A developer clones `hrshmllw/ocsi-wp` and follows `README.md` to recreate the lo
 ## Assumptions
 
 - WordPress was installed on this machine on 2026-10-21. Core files remain in the folder and are gitignored.
-- Priority pages, a sample branch, and a sample vacancy were created in the local database during that install. They are not files in git.
+- Priority pages, a sample branch, and a sample vacancy were created in the local database during that install. They are not files in git. The sample branch and sample vacancy were later removed. The replacement records are in `specs/003-public-profile-copy`.
 - The first committed theme used a forest, ivory, and gold palette. The later palette work is `specs/002-logo-palette`. The first page copy was explicitly placeholder. The later draft copy is `specs/003-public-profile-copy`.
 - Production hosting is still the managed WordPress host named in the project brief. InfinityFree was evaluated and rejected as the launch host. Limits are in `README.md`.

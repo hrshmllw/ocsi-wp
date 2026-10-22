@@ -28,7 +28,7 @@ Replace the scaffold’s placeholder sentences with draft copy from OCSI’s pub
 
 **Constraints**: Draft until OCSI confirms. No CV upload. No live form. No unapproved logos.
 
-**Scale/Scope**: Front page, six page templates, and the branch and job archive flags.
+**Scale/Scope**: Front page, six page templates, the footer draft line, the branch and job archive flags, and six branch records in the local database.
 
 ## Constitution Check
 
@@ -61,6 +61,7 @@ wp-content/themes/ocsi/page-templates/careers.php
 wp-content/themes/ocsi/page-templates/contact.php
 wp-content/themes/ocsi/archive-branch.php
 wp-content/themes/ocsi/archive-job.php
+wp-content/themes/ocsi/footer.php
 ```
 
 ## As built
@@ -72,3 +73,14 @@ wp-content/themes/ocsi/archive-job.php
 - Partners names Nestlé Philippines and the product list, and withholds logos and awards.
 - Careers points HR at WordPress vacancies and an external apply link.
 - Contact prints the MacArthur Highway, Barangay Saguin, City of San Fernando, Pampanga address as a draft and lists the planned form fields without a form.
+- The footer says the copy is a draft from public profiles.
+- The sample branch and the sample vacancy were deleted from the local database. Six published branches replaced them. Those rows are not in git. Street addresses are stored only where a listing published one.
+
+| Branch | Address stored |
+| --- | --- |
+| San Fernando, Pampanga | MacArthur Highway, Barangay Saguin, City of San Fernando, Pampanga |
+| Imus, Cavite | Aguinaldo Highway, Anabu 1-B, City of Imus, Cavite 4103 |
+| San Pablo City, Laguna | Mahabang Parang, Barangay San Francisco, San Pablo City, Laguna |
+| Gumaca, Quezon | Gumaca, Quezon |
+| Las Piñas | Las Piñas City |
+| Oton, Iloilo | Circumferential Road 1, Barangay Pakiad, Oton, Iloilo 5020 |

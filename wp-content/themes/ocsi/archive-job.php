@@ -8,7 +8,7 @@
 get_header();
 ?>
 <main id="main" class="wrap page-main">
-	<p class="placeholder-flag">Placeholder copy</p>
+	<p class="placeholder-flag">Open roles are published by HR.</p>
 	<h1>Open positions</h1>
 	<p>HR publishes, edits, and closes vacancies in WordPress. Unpublished roles do not appear here.</p>
 	<?php if ( have_posts() ) : ?>

@@ -8,9 +8,9 @@
 get_header();
 ?>
 <main id="main" class="wrap page-main">
-	<p class="placeholder-flag">Placeholder copy</p>
+	<p class="placeholder-flag">Draft from public profiles. Confirm before publication.</p>
 	<h1>Branch directory</h1>
-	<p>Each published branch has its own page. Staff add and remove records in WordPress.</p>
+	<p>Sites named in PhilJobNet, Jobstreet, and an FDA establishment record. Staff can correct an address in WordPress.</p>
 	<?php if ( have_posts() ) : ?>
 		<ul class="directory">
 			<?php

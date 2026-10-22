@@ -1,16 +1,16 @@
 body {
-	background: #f7f5ef;
-	color: #252927;
+	background: #f7f8fa;
+	color: #161c24;
 	font-family: "Inter", "Segoe UI", sans-serif;
-	font-size: 1.125rem;
+	font-size: 1rem;
 	line-height: 1.6;
 }
 
 h1,
 h2,
 h3,
-.wordmark__mark {
-	font-family: "Manrope", "Segoe UI", sans-serif;
+.wordmark__name {
+	font-family: "Plus Jakarta Sans", "Segoe UI", sans-serif;
 	font-weight: 700;
 	letter-spacing: -0.03em;
 	line-height: 1.15;

@@ -13,7 +13,7 @@ while ( have_posts() ) :
 	the_post();
 	?>
 	<main id="main" class="wrap page-main">
-		<p class="placeholder-flag">Placeholder copy</p>
+		<p class="placeholder-flag">Draft from public profiles. Confirm before publication.</p>
 		<h1><?php the_title(); ?></h1>
 		<?php
 		get_template_part(
@@ -23,16 +23,16 @@ while ( have_posts() ) :
 				'intro'    => 'HR publishes and closes vacancies in WordPress. Applications leave the site through an approved link. CVs are not stored here.',
 				'sections' => array(
 					array(
-						'title' => 'Life at OCSI',
-						'text'  => 'Workplace and culture copy will be added after OCSI approves it.',
+						'title' => 'Where people work',
+						'text'  => 'Public job listings place OCSI teams in San Fernando, Imus, San Pablo City, Gumaca, Las Piñas, and Oton. Recent openings have included sales supervisors, salespeople, and a Nestlé Professional supervisor in Cavite.',
 					),
 					array(
 						'title' => 'Benefits',
-						'text'  => 'Benefits will be listed only where they are confirmed.',
+						'text'  => 'Benefits will be listed when OCSI confirms the current package.',
 					),
 					array(
 						'title' => 'How to apply',
-						'text'  => 'Each vacancy links to an approved application destination. That destination is still to be chosen.',
+						'text'  => 'A vacancy appears below only when it is published in WordPress. Each one can link to an application page. That destination is still to be chosen, so no sample vacancy is shown.',
 					),
 				),
 			)

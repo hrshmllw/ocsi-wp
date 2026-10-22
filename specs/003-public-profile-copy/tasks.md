@@ -11,6 +11,8 @@
 - [x] T001 [US1] Draft the home page in `wp-content/themes/ocsi/front-page.php` from public profiles and flag it
 - [x] T002 [US1] Draft About, Capabilities, Network, Partners, Careers, and Contact in `wp-content/themes/ocsi/page-templates/`
 - [x] T003 [US1] Keep the branch and job archive flags in `archive-branch.php` and `archive-job.php`
+- [x] T003a [US1] Mark the site footer in `footer.php` as draft copy from public profiles
+- [x] T003b [US2] Delete the sample branch and sample vacancy, and publish the six branch records named in `plan.md` in the local database only
 
 ## Phase 2 - Hold back unconfirmed facts
 

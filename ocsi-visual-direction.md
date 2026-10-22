@@ -191,18 +191,21 @@ The result should feel premium and professional, but still human and relevant to
 
 Recommended palette: corporate red, blue, and neutrals. All three visual directions use this set. They differ in how much red or blue is emphasized, not in the hex values.
 
-The supplied logo file uses pure red `#FF0000` and pure blue `#0000FF`. Keep the artwork as supplied. Use `#C62828` for interface red, and match it to the official logo red if that red is different from the file.
+The supplied logo file uses pure red `#FF0000` and pure blue `#0000FF`. Keep the artwork as supplied. The homepage mockup sets the interface colors below. Button red stays `#C62828`. Match it to the official logo red if that red is different from the file.
 
 | Token | Color | Hex | Suggested use |
 |---|---|---|---|
-| Accent | Corporate red | `#C62828` | Primary calls to action, highlights, and small visual details |
-| Link | Corporate blue | `#174A8B` | Links, secondary buttons, and selected headings |
+| Accent | Button red | `#C62828` | Primary calls to action |
+| Accent | Deep red | `#A20513` | Eyebrows, the current navigation item, and timeline marks |
+| Link | Blue | `#315EA0` | Links, the outlined header button, and selected labels |
 | Background | Cool off-white | `#F7F8FA` | Main page background |
-| Surface | White | `#FFFFFF` | Cards, navigation, content sections, and clean product photography |
-| Text | Charcoal | `#252B33` | Headings, body text, footer, and high-contrast elements |
-| Muted | Slate | `#64748B` | Secondary text, subtle icons, metadata, and understated UI elements |
+| Surface | White | `#FFFFFF` | Cards, navigation, and content sections |
+| Surface | Ice | `#EEF4FF` | Channel tiles, the timeline panel, and people notes |
+| Text | Ink | `#161C24` | Headings and body text |
+| Muted | Slate | `#64748B` | Secondary text, metadata, and understated UI elements |
+| Inverse | Footer | `#2B3139` | Footer background |
 
-White text on corporate red is about 5.6:1, so red buttons can use white labels. White text on corporate blue is about 8.8:1. Charcoal on cool off-white is the default reading color. Slate is for secondary text, not for long paragraphs.
+White text on button red is about 5.6:1, so red buttons can use white labels. White text on blue `#315EA0` is about 5.9:1. Ink on cool off-white is the default reading color. Slate is for secondary text, not for long paragraphs.
 
 ### How each direction uses the palette
 
@@ -226,7 +229,7 @@ Before finalizing the palette:
 1. Confirm the logo file is the official mark.
 2. Request any existing brand guidelines.
 3. If the official logo red differs from `#FF0000`, match the corporate red to that value.
-4. Test text and interface contrast, including white on `#C62828` and white on `#174A8B`.
+4. Test text and interface contrast, including white on `#C62828` and white on `#315EA0`.
 5. Get stakeholder approval for the final palette.
 
 ---
@@ -235,7 +238,7 @@ Before finalizing the palette:
 
 ### Suggested pairing
 
-- **Headings:** Manrope or Plus Jakarta Sans.
+- **Headings:** Plus Jakarta Sans. Manrope remains an acceptable alternate if a later pass prefers it.
 - **Body:** Inter.
 - **Optional editorial accent:** A restrained serif font for selected large headlines, if a more premium editorial feel is desired.
 
@@ -367,7 +370,7 @@ Do not invent statistics or imply endorsement by another company.
 ### Buttons
 
 - Primary: corporate red (`#C62828`) with white text.
-- Secondary: corporate blue (`#174A8B`) text or border on white.
+- Secondary: blue (`#315EA0`) text or border on white.
 - Use concise action labels.
 - Provide hover, focus, disabled, and active states.
 - Maintain sufficiently large touch targets on mobile.
@@ -563,6 +566,6 @@ Use **Modern, Premium Corporate** as the primary design direction, supported by 
 
 Start by studying Ecossential Foods for local industry relevance, Canberra Limited for distributor-focused storytelling, and Nestlé Philippines for human-centered corporate communication. Use DHL Supply Chain and Kuehne+Nagel as references for operational clarity and enterprise-level information architecture.
 
-The end result should look established, clear, and human, while staying lightweight and practical to maintain in WordPress. Use corporate red `#C62828`, corporate blue `#174A8B`, cool off-white, white, charcoal, and slate, and keep the logo on a white surface.
+The end result should look established, clear, and human, while staying lightweight and practical to maintain in WordPress. Use button red `#C62828`, deep red `#A20513`, blue `#315EA0`, cool off-white, white, ink, and slate, and keep the logo on a white surface.
 
 *This document is a design planning baseline. The official OCSI brand identity, imagery, claims, partner relationships, and operational details must be verified and approved before launch.*

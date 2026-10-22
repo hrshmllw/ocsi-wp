@@ -15,13 +15,22 @@
 <?php wp_body_open(); ?>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-	<div class="site-header__bar">
+	<div class="wrap site-header__bar">
 		<?php if ( has_custom_logo() ) : ?>
-			<div class="wordmark"><?php the_custom_logo(); ?></div>
+			<div class="wordmark">
+				<?php the_custom_logo(); ?>
+				<a class="wordmark__text" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<span class="wordmark__name">OCSI</span>
+					<span class="wordmark__legal">Optimized Customer Solutions, Inc.</span>
+				</a>
+			</div>
 		<?php else : ?>
 			<a class="wordmark" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<span class="wordmark__mark">OCSI</span>
-				<span class="wordmark__name">Optimized Customer Solutions, Inc.</span>
+				<img class="wordmark__mark" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/ocsi-logo.svg' ) ); ?>" alt="" width="36" height="36">
+				<span class="wordmark__text">
+					<span class="wordmark__name">OCSI</span>
+					<span class="wordmark__legal">Optimized Customer Solutions, Inc.</span>
+				</span>
 			</a>
 		<?php endif; ?>
 		<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>

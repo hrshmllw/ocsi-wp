@@ -17,11 +17,11 @@ The OCSI theme and the OCSI Core plugin should both be active. OCSI Core adds tw
 
 ## What is tracked
 
-- `wp-content/themes/ocsi`
+- `wp-content/themes/ocsi`, including `assets/images/home/` and `assets/js/hero-carousel.js`
 - `wp-content/plugins/ocsi-core`
 - `ocsi-website-project-brief.md`
 - `ocsi-visual-direction.md`
-- `docs/README.md` and the feature specs under `specs/`
+- `docs/` (the catalog and the designer brief) and the feature specs under `specs/`
 - `.specify/` and `.cursor/` for Spec Kit and the documentation rule
 
 `wp-config.php`, uploads, and `.htaccess` are local only.
@@ -43,9 +43,9 @@ MSYS_NO_PATHCONV=1 php wp-cli.phar option update permalink_structure '/%postname
 
 ## Visual direction
 
-The recommended palette in `ocsi-visual-direction.md` is corporate red `#C62828`, corporate blue `#174A8B`, cool off-white `#F7F8FA`, white, charcoal `#252B33`, and slate `#64748B`. The logo file remains pure red and blue and sits on a white header. Headings use Manrope. Body text uses Inter.
+The palette in `ocsi-visual-direction.md` follows the homepage mockup: button red `#C62828`, deep red `#A20513`, blue `#315EA0`, cool off-white `#F7F8FA`, white, ink `#161C24`, and slate `#64748B`. The logo file remains pure red and blue and sits on a white header. Headings use Plus Jakarta Sans. Body text uses Inter.
 
-The homepage line “Moving Brands Forward.” is proposed copy from that document. It is not approved company messaging. The palette still needs stakeholder approval.
+The visual direction still proposes the line “Moving Brands Forward.” That line is not the homepage. The homepage uses the mockup draft in `specs/004-homepage-mockup`. The other pages use the draft in `specs/003-public-profile-copy`. The palette still needs stakeholder approval.
 
 ## InfinityFree
 

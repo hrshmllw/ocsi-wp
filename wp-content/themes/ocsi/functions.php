@@ -44,7 +44,7 @@ add_action( 'after_setup_theme', 'ocsi_content_width', 0 );
 function ocsi_enqueue_fonts() {
 	wp_enqueue_style(
 		'ocsi-fonts',
-		'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600;700&display=swap',
+		'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap',
 		array(),
 		null
 	);
@@ -58,6 +58,10 @@ add_action( 'enqueue_block_editor_assets', 'ocsi_enqueue_fonts' );
 function ocsi_enqueue_assets() {
 	wp_enqueue_style( 'ocsi-style', get_stylesheet_uri(), array( 'ocsi-fonts' ), wp_get_theme()->get( 'Version' ) );
 	wp_enqueue_script( 'ocsi-nav', get_theme_file_uri( 'assets/js/nav.js' ), array(), wp_get_theme()->get( 'Version' ), true );
+
+	if ( is_front_page() ) {
+		wp_enqueue_script( 'ocsi-hero', get_theme_file_uri( 'assets/js/hero-carousel.js' ), array(), wp_get_theme()->get( 'Version' ), true );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'ocsi_enqueue_assets' );
 
@@ -215,7 +219,28 @@ function ocsi_primary_menu_fallback() {
 
 	echo '<ul class="site-nav__list">';
 	foreach ( $items as $slug => $label ) {
-		echo '<li><a href="' . esc_url( ocsi_page_url( $slug ) ) . '">' . esc_html( $label ) . '</a></li>';
+		$current = is_page( $slug );
+		echo '<li' . ( $current ? ' class="current-menu-item"' : '' ) . '>';
+		echo '<a href="' . esc_url( ocsi_page_url( $slug ) ) . '"' . ( $current ? ' aria-current="page"' : '' ) . '>' . esc_html( $label ) . '</a>';
+		echo '</li>';
 	}
 	echo '</ul>';
+}
+
+/**
+ * Print a homepage icon at the size exported from the mockup.
+ *
+ * @param string $file   File name under assets/images/home.
+ * @param string $width  Root width.
+ * @param string $height Root height.
+ * @param string $class  Class attribute.
+ */
+function ocsi_icon( $file, $width, $height, $class = 'icon' ) {
+	printf(
+		'<img class="%1$s" src="%2$s" alt="" width="%3$s" height="%4$s" decoding="async">',
+		esc_attr( $class ),
+		esc_url( get_theme_file_uri( 'assets/images/home/' . $file ) ),
+		esc_attr( $width ),
+		esc_attr( $height )
+	);
 }

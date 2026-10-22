@@ -60,7 +60,7 @@ Contact explains how to inquire later, and does not collect personal information
 ### Edge Cases
 
 - Photographs are still labeled as not supplied. The copy change did not add images.
-- Branch rows still come from WordPress. The network page says those entries were filled from PhilJobNet, Jobstreet, and an FDA record, and that phone numbers and hours were not in those sources.
+- Branch rows come from WordPress. The sample branch and the sample vacancy from the scaffold were deleted. Six branches were published in the local database: San Fernando, Imus, San Pablo City, Gumaca, Las Piñas, and Oton. Phone and hours were left empty. Those rows are not in git. The addresses are listed in `plan.md`.
 - Archive and single templates for branches and jobs keep a short flag. They do not repeat the company history.
 
 ## Requirements *(mandatory)*

@@ -1,8 +1,9 @@
 <!--
 Sync Impact Report
-- Version change: template → 1.0.0
-- Modified principles: placeholders replaced with the rules already in use
-- Added sections: Platform constraints, Documentation
+- Version change: 1.0.1 → 1.1.0
+- Modified principles: III now points the homepage at the mockup draft in specs/004-homepage-mockup
+- Modified principles: platform constraints name Plus Jakarta Sans for headings
+- Added sections: none
 - Removed sections: none
 - Follow-up TODOs: none
 -->
@@ -21,7 +22,7 @@ OCSI Core adds two content types: branches at `/branches/` and vacancies at `/jo
 
 ### III. Confirmed facts only
 
-Copy taken from public profiles is a draft until OCSI confirms it. Claims the sources disagree on are left out. The line “Moving Brands Forward.” is proposed copy, not approved messaging. The palette in `ocsi-visual-direction.md` still needs stakeholder approval. The logo file stays the supplied red and blue artwork and sits on a white header.
+Copy taken from public profiles is a draft until OCSI confirms it. Claims the sources disagree on are left out of the inner pages. The visual direction’s line “Moving Brands Forward.” is proposed copy, not approved messaging, and it is not the live homepage. Inner page copy is the draft in `specs/003-public-profile-copy`. The homepage uses the mockup draft in `specs/004-homepage-mockup`, including its figures, and keeps the draft banner. The palette in `ocsi-visual-direction.md` still needs stakeholder approval. The logo file stays the supplied red and blue artwork and sits on a white header.
 
 ### IV. Build locally, launch on managed hosting
 
@@ -33,7 +34,7 @@ Every completed change updates the document that already owns the topic, or adds
 
 ## Platform constraints
 
-- The theme is responsive and mobile-first. Headings use Manrope. Body text uses Inter.
+- The theme is responsive and mobile-first. Headings use Plus Jakarta Sans. Body text uses Inter.
 - Authorized staff update pages, branches, and vacancies in WordPress.
 - Permalinks use the “Post name” structure.
 - Comments stay closed. This is a corporate site, not a blog.
@@ -46,4 +47,4 @@ Standing documents are `README.md`, `ocsi-website-project-brief.md`, and `ocsi-v
 
 This constitution is the project’s working agreement. A change to these rules is an edit of this file, noted in `docs/README.md`, with the version below updated. A new or expanded rule increments the minor version. A wording clarification increments the patch version. Removing or redefining a rule increments the major version.
 
-**Version**: 1.0.0 | **Ratified**: 2026-10-21 | **Last Amended**: 2026-10-21
+**Version**: 1.1.0 | **Ratified**: 2026-10-21 | **Last Amended**: 2026-10-22
